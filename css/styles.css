@@ -10,7 +10,8 @@
 
 body {
     background-color: rgb(227, 227, 227);
-    font-family: "Ubuntu", serif;
+    /* font-family: "Ubuntu", serif; */
+    font-family: "LSANS", serif;
 
     /* --hue: 100;
     --main-colour: hsl(var(--hue), 70%, 67%);
