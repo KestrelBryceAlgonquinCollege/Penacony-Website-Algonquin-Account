@@ -15,20 +15,27 @@
 
 
 body {
-    background-color: rgb(227, 227, 227);
+    background-color: var(--shade-2-periwinkle);
     /* font-family: "Ubuntu", serif; */
     font-family: "Lucida Sans Regular", serif;
 
     /* --hue: 100;
     --main-colour: hsl(var(--hue), 70%, 67%);
     --dark-colour: hsl(var(--hue), 100%, 20%); */
+
+    /* NEW colour variables */
+    --shade-1-platinum: #eaeaea;
+    --shade-2-periwinkle: #cbc5ea;
+    --shade-3-pomp-and-power: #73628a;
+    --shade-4-delft-blue: #313d5a;
+    --shade-5-gunmetal: #183642;
 }
 
 header {
     font-family: "Playwrite IT Moderna", serif;
     text-align: center;
-    background-color:rgb(43, 43, 43);
-    color: white;
+    background-color: var(--shade-5-gunmetal);
+    color: black;
     padding: 35px;
     font-size: 25px;
     margin-bottom: 15px;
@@ -44,7 +51,7 @@ nav {
     justify-content: center;
     gap: 40px;
     padding: 20px;
-    background-color: gray;
+    background-color: var(--shade-4-delft-blue);
     box-shadow: 0 3px 3px rgba(0, 0, 0, 0.284);
 }
 
@@ -56,7 +63,7 @@ nav a {
 nav a:hover {
     /* font-size: 1.2em; */
     transform: scale(1.2);
-    color: #222;
+    color: black;
 }
 
 #zawg {
@@ -76,7 +83,7 @@ nav a:hover {
 }
 
 a:visited {
-    color: #444;
+    color: var(--shade-1-platinum);
 }
 a:focus {
     outline: 4px solid red;
@@ -84,7 +91,7 @@ a:focus {
 
 footer {
     padding: 35px;
-    background-color:rgb(43, 43, 43);
+    background-color: var(--shade-5-gunmetal);
     color: white;
 }
 
@@ -109,12 +116,12 @@ p {
     margin: 40px;
 }
 .card {
-    background-color: tomato;
+    background-color: var(--shade-3-pomp-and-power);
     border-radius: 10px;
     margin: 1em;
     padding: 0.5em;
-    border: 2px solid darkred;
-    box-shadow: 0 3px 5px rgb(120, 2, 2);
+    border: 2px solid var(--shade-5-gunmetal);
+    box-shadow: 0 3px 5px black;
     position: relative;
 }
 .card p {
