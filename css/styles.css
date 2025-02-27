@@ -7,6 +7,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+IT+Moderna:wght@100..400&display=swap');
 /* Body text font:  */
 
+/* Failed body text font: Lucida Sans (rest in peace) */
+@font-face {
+    font-family: 'Lucida Sans Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Lucida Sans Regular'), url('LSANS.woff') format('woff');
+    }
+
 
 body {
     background-color: rgb(227, 227, 227);
