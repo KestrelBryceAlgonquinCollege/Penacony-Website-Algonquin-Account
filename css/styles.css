@@ -134,9 +134,9 @@ p {
     grid-auto-flow: column;
 }
 
-#graveyard {
+/* #graveyard {
     background: url(https://i.etsystatic.com/40124995/r/il/c20de6/5136028821/il_fullxfull.5136028821_s972.jpg);
-}
+} */
 
 @media screen and (max-width: 600px) {
     nav {
