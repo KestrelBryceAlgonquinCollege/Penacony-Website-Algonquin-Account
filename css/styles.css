@@ -79,6 +79,8 @@ nav a:hover {
     margin: auto;
 }
 
+/* Home page sections */
+
 #INTRODUCTION {
     text-align: center;
     max-width: 85%;
@@ -115,7 +117,69 @@ nav a:hover {
     text-align: right;
 }
 
-#zawg {
+/* Specialty Foods sections */
+
+.centered-food {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+#DREAMY-CONE {
+    max-width: 85%;
+    margin: auto;
+    text-align: center;
+}
+
+#FLOATDISC-BURGER {
+    max-width: 85%;
+    margin: auto;
+    text-align: center;
+}
+
+#CLOCKIE-PIZZA {
+    max-width: 85%;
+    margin: auto;
+    text-align: center;
+}
+
+#OAK-CAKE-ROLLS {
+    max-width: 85%;
+    margin: auto;
+    text-align: center;
+}
+
+#CLASSIC-SOULGLAD {
+    max-width: 85%;
+    margin: auto;
+    text-align: center;
+}
+
+#POPCORN {
+    max-width: 85%;
+    margin: auto;
+    text-align: center;
+}
+
+#STARGAZER {
+    max-width: 85%;
+    margin: auto;
+    text-align: center;
+}
+
+#DREAMLIGHT {
+    max-width: 85%;
+    margin: auto;
+    text-align: center;
+}
+
+
+
+
+/* Template sections */
+
+/* #zawg {
     max-width: 20%;
     margin: auto;
 }
@@ -129,7 +193,7 @@ nav a:hover {
     max-width: 80%;
     margin: auto;
     margin-top: 20px;
-}
+} */
 
 a:visited {
     color: var(--shade-1-platinum);
