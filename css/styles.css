@@ -24,6 +24,9 @@ body {
     --dark-colour: hsl(var(--hue), 100%, 20%); */
 
     /* NEW colour variables */
+    --header-shade-pine-green: #037971;
+    --header-shade-tiffany-blue: #a8dcd9;
+    --header-shade-caribbean-current: #2c666e;
     --shade-1-platinum: #eaeaea;
     --shade-2-periwinkle: #cbc5ea;
     --shade-3-pomp-and-power: #73628a;
@@ -34,7 +37,10 @@ body {
 header {
     font-family: "Playwrite IT Moderna", serif;
     text-align: center;
-    background-color: var(--shade-5-gunmetal);
+    /* background-color: var(--shade-5-gunmetal); */
+    /* background-color: var(--header-shade-tiffany-blue); */
+    /* background-color: var(--header-shade-pine-green); */
+    background-color: var(--header-shade-caribbean-current);
     color: black;
     padding: 35px;
     font-size: 25px;
