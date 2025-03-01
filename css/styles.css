@@ -120,28 +120,28 @@ nav a:hover {
 
 /* Carousel Locations sections */
 
-#REVERIE-HOTEL-CAROUSEL {
+#REVERIE-HOTEL-GALLERY {
     max-width: 50%;
     margin: auto;
 }
 
-#GOLDEN-HOUR-CAROUSEL {
-    max-width: 85%;
+#GOLDEN-HOUR-GALLERY {
+    max-width: 50%;
     margin: auto;
 }
 
-#CLOCK-STUDIOS-CAROUSEL {
-    max-width: 85%;
+#CLOCK-STUDIOS-GALLERY {
+    max-width: 50%;
     margin: auto;
 }
 
-#RADIANT-FELDSPAR-CAROUSEL {
-    max-width: 85%;
+#RADIANT-FELDSPAR-GALLERY {
+    max-width: 50%;
     margin: auto;
 }
 
-#PAPERFOLD-CAROUSEL {
-    max-width: 85%;
+#PAPERFOLD-GALLERY {
+    max-width: 50%;
     margin: auto;
 }
 
@@ -203,27 +203,6 @@ nav a:hover {
     margin: auto;
     text-align: center;
 }
-
-
-
-
-/* Template sections */
-
-/* #zawg {
-    max-width: 20%;
-    margin: auto;
-}
-
-#schlawg, #zawg-manager {
-    max-width: 40%;
-    margin: auto;
-}
-
-#ripzawg {
-    max-width: 80%;
-    margin: auto;
-    margin-top: 20px;
-} */
 
 a:visited {
     color: var(--shade-1-platinum);
@@ -383,12 +362,6 @@ p {
     grid-template-columns: 1fr 1fr;
     gap: 20px;
 }
-
-
-
-/* #graveyard {
-    background: url(https://i.etsystatic.com/40124995/r/il/c20de6/5136028821/il_fullxfull.5136028821_s972.jpg);
-} */
 
 @media screen and (max-width: 600px) {
     nav {
