@@ -204,6 +204,27 @@ nav a:hover {
     text-align: center;
 }
 
+/* Things to do sections */
+#BAR {
+    max-width: 85%;
+    margin: auto;
+    text-align: center;
+}
+
+#GOLDEN-CAPSULE {
+    max-width: 85%;
+    margin: auto;
+    text-align: center;
+}
+
+#FILMING {
+    max-width: 85%;
+    margin: auto;
+    text-align: center;
+}
+
+
+
 a:visited {
     color: var(--shade-1-platinum);
 }
